@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color:#F8F9F9;
+    font-family: 'Nunito', sans-serif;  
+}
+
+.top-nav{
+    text-align:center;
+    display: none;
+    width: 100%;
+ }
+
+.lunch{
+  font-size: 36px;
+  font-family: 'Abril Fatface', cursive;
+  padding-left: 30px;
+}
+
+.nav-bars{
+  float: left;
+  width: 20%;
+  color: #FF5252;
+  font-size: 34px;
+}
+
+.lorem{
+  float: left;
+  width: 60%;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 34px;
+}
+
+.nav-cart{
+  float: left;
+  width: 20%;
+  color: #FF5252;
+  font-size: 34px;
+}
+
+.content{
+  width: 100%;
+  display: none;
+}
+
+.card1{
+    width: 40%;
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 10px 41px 43px #CBCBCB;
+    text-align: center;
+}
+
+#end-card{
+    margin-left: 30px;
+}
+
+.img-card1{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.last{
+    width: 100%;
+    display: none;
+    padding-left: 30px;
+    color: #848484;
+    font-size: 18px;
+    padding-top: 14px;
+}
+
+.side-nav{
+    background-color: #F8F9F9;
+    font-size: 16px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    width:250px;
+    padding-left: 70px;
+    display: inline-block;
+    
+}
+
+.side-nav a{
+    display:block;
+    text-decoration: none;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    padding: 20px 0px;
+    color: #848484;
+}
+
+.sidenav a:hover{
+    color: rgb(65, 94, 119);
+}
+
+a{
+    color: rgb(139, 133, 133);
+}
+
+.bcart{
+    border-radius: 40px;
+    background-color: #FF5252;
+    color: white;
+    font-size: 1em;
+    padding:14px 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+
+.first{
+    font-size:30px;
+}
+
+.plorem{
+    font-size: 34px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+main{
+    margin-top: 4%;
+    margin-left: 290px;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+.heading{
+    float: left;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 62px;
+    display: inline-block;
+    padding-left: 31px;
+}
+
+.rele{
+    float: right;
+    padding: 5%;
+    display: inline-block;
+    margin-right: 14%;
+    line-height: 0.7;
+    padding-top: 62px;
+    margin-bottom: 90px;
+    color: #848484;
+    font-size: 14px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(225px,1fr));
+    font-family: sans-serif;
+    margin-left: 250px;
+    background-color: white;
+    align-content: center;
+
+}
+
+.food-name{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.main-content{
+    margin-left: 290px;
+}
+
+.card{
+    float: right;
+    width: 17%;
+    background-color: white;
+    margin-left: 48.80px;
+    padding: 19px;
+    border-radius: 20px;
+    box-shadow: 10px 17px 43px #CFCFCF;
+    text-align: center;
+    margin-right: -18px;
+}
+
+.img-card{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.c_img{
+    display: block;
+    min-width: 0;
+    min-height: 0;  
+    object-fit: cover;
+    height: 90%;
+    border-radius: 50%;
+}
+
+#lcard{
+    float: right;
+}
+
+@media screen and (max-width: 415px){
+  .side-nav{
+    display:none;
+  }
+  
+  main{
+      display: none;
+  }
+  
+  .main-content{
+      display: none;
+  }
+  
+  .top-nav{
+    display: block;
+
+  }
+  
+  .content{
+    display: block;
+  }
+  
+  .card1{
+    display: inline-block;
+  }
+  
+  .last{
+      display: block;
+  }
+  
+}
+
+
+
